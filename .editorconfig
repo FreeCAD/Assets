@@ -49,12 +49,14 @@ root = true
 
 
 [*]
-trim_trailing_whitespace = true
 insert_final_newline = false
 indent_style = space
 end_of_line = lf
 indent_size = 4
 charset = utf-8
+
+[*.{yml}]
+trim_trailing_whitespace = true
 
 [*.{md}]
 trim_trailing_whitespace = false
